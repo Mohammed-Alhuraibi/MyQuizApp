@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/ic_bg"
+    tools:context=".ResultnActivity">
+
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        android:layout_gravity="center"
+        android:background="@drawable/winner"
+        />
+
+    <TextView
+        style="@style/text_style_result_activity"
+        android:text="Hey, Congratulations!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        style="@style/text_style_result_activity"
+        android:id="@+id/userName"
+        tools:text="Mohammed"
+        android:layout_marginTop="20dp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        tools:text="Your Score is 0 out of 9"
+        />
+
+    <Button
+        android:id="@+id/btn_retry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_top15dp"
+        android:text="Retry"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Finish"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp"
+        android:backgroundTint="@color/white"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+</LinearLayout>

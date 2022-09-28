@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false"
+    android:padding="20dp"
+    tools:context=".QuizQuestions"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:contentDescription="@string/flag_of_a_country"
+            android:id="@+id/img_flag"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            tools:background="@drawable/ic_flag_of_argentina"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content">
+        <ProgressBar
+            android:id="@+id/pb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:progress="5"
+            android:layout_weight="1"
+            android:paddingTop="6dp"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:indeterminate="false"
+            />
+        <TextView
+
+            android:id="@+id/tv_current_question"
+            android:layout_width="wrap_content"
+            tools:text="9/10"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_optionOne"
+            style="@style/text_style_options"
+            tools:text="Apple"
+            android:background="@drawable/background_options_textviews"/>
+
+        <TextView
+            style="@style/text_style_options"
+            tools:text="Apple"
+            android:id="@+id/tv_optionTwo"
+            android:background="@drawable/background_options_textviews"
+            />
+        <TextView
+            android:id="@+id/tv_optionThree"
+            style="@style/text_style_options"
+            tools:text="Apple"
+            android:background="@drawable/background_options_textviews"/>
+        <TextView
+            android:id="@+id/tv_optionFour"
+            style="@style/text_style_options"
+            tools:text="Apple"
+            android:background="@drawable/background_options_textviews"/>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:layout_marginTop="20dp"
+            android:textStyle="italic"
+            android:padding="10dp"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

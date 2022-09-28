@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Quizz App</string>
+    <string name="txStart">Start</string>
+    <string name="submit">SUBMIT</string>
+    <string name="nextQuestion">NEXT QUESTION</string>
+    <string name="finish">FISINSH</string>
+    <string name="flag_of_a_country">Flag of a country</string>
+
+</resources>
