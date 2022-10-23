@@ -1,4 +1,8 @@
 # MyQuizApp
 
 
-<img src="https://user-images.githubusercontent.com/62990897/197385523-94fe854d-c2d8-4de0-9923-34a19492b8bf.jpeg" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/62990897/197385523-94fe854d-c2d8-4de0-9923-34a19492b8bf.jpeg" width=50% height=25% 
+  display= "block"
+  margin-left= "auto"
+  margin-right= "auto"
+>
